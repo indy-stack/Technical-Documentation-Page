@@ -93,7 +93,7 @@ code{
                
     }
 
-    .main-doc{
+    #main-doc{
         position: absolute;
         margin-left: 310px;
         padding: 20px;
