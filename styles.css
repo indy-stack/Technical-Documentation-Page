@@ -26,8 +26,6 @@ nav{
     display: flex;
     flex-direction: column;
     padding: 1em;
-
-    
 }
 
 #navbar a{
@@ -79,6 +77,7 @@ code{
 
 @media screen and (min-width: 640px){
     #navbar{
+        display: flex;
         position: fixed;
         top: 0;
         left: 0;
@@ -88,9 +87,7 @@ code{
         border-right: solid;
         border-color: #454141;
         background-color: rgb(249, 244, 239);
-        display: flex;
-        justify-content: space-between;
-               
+        justify-content: space-between;      
     }
 
     #main-doc{
@@ -99,7 +96,5 @@ code{
         padding: 20px;
         margin-bottom: 110px;
     }
-
-   
-    
+ 
 }
